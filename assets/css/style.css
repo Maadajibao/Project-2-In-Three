@@ -4,7 +4,7 @@
 
 body{
 min-height: 100%;
-position:relative;
+position: relative;
 font-family: 'Nunito', sans-serif;
 margin: 0;
 }
@@ -16,10 +16,19 @@ header{
     height: 50px;
 }
 
+/* Main */
+
+main {
+
+    /* Make main element take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+
+}
+
 /* Footer */
 
 footer {
-    position:absolute;
+    position: absolute;
     width: 100%;
     left: 0;
     bottom: 0;
@@ -63,7 +72,7 @@ footer {
     width: 75%;
 }
 
-.player {
+.computer {
     background-color: red;
     float: right;
     width: 45%;
