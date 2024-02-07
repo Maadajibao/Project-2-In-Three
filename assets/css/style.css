@@ -88,3 +88,15 @@ footer {
 #computer-image {
     width: 75%;
 }
+
+/* Leaderboard */
+
+leaderboard {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    text-align: center;
+    background-color: aqua;
+    color:blue
+        }
