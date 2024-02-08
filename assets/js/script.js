@@ -16,8 +16,12 @@ const choices = ['rock','paper', 'scissors']
  */
 
 for (let button of buttons) {
-    let playerChoice = this.getAttribute('data-choice');
-    playGame(playerChoice)
+    button.addEventListener('click', function () {
+        let playerChoice = this.getAttribute('data-choice');
+        playGame(playerChoice);
+
+    });
+
 }
 
 /**
@@ -26,7 +30,7 @@ for (let button of buttons) {
  */
 
 
-playGame (playerChoice) {
+function playGame (playerChoice) {
 
     playerImage.src = `assets/images/${choices[playerChoice]}.png`;
     playerImage.alt = choices[playerChoice];
