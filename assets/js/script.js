@@ -9,7 +9,7 @@ const computerScore = document.getElementById('computer-score');
 const playerImage = document.getElementById('player-image');
 const computerImage = document.getElementById('computer-image');
 const messages = document.getElementById('messages');
-const choices = ['rock','paper', 'scissors']
+const choices = ['rock','paper', 'scissors'];
 
 /**
  * Add event listener to all the buttons
@@ -42,5 +42,7 @@ function playGame (playerChoice) {
 
     let result = checkWinner(choices[computerChoice], choices[playerChoice]);
 
-    updateScores(result)
+    updateScores(result);
 }
+
+console.log('playGame')
