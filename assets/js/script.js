@@ -45,4 +45,42 @@ function playGame (playerChoice) {
     updateScores(result);
 }
 
-console.log('playGame')
+/**
+ * Checks to see who the winner is
+ */
+
+function checkWinner () {
+    if (playerChoice == computerChoice ) {
+        messages.textContent = 'Tie'
+    } else if ( playerChoice == 'rock') {
+        if (computerChoice == 'paper') {
+            messages.textContent = 'Computer Won';
+            computerScore++;
+        } else {
+            messages.textContent = 'Player Won';
+            playerScore++;
+        }
+    }
+    else if ( playerChoice == 'scissors') {
+        if (computerChoice == 'rock') {
+            messages.textContent = 'Computer Won';
+            computerScore++;
+        } else {
+            messages.textContent = 'Player Won';
+            playerScore++;
+        }
+    }
+    else if (playerChoice == 'paper') {
+        if (computerChoice == 'scissors') {
+            messages.textContent = 'Computer Won';
+            computerScore++;
+        } else {
+            messages.textContent = 'Player Won';
+            playerScore++;
+        }
+    }
+
+
+
+}
+
