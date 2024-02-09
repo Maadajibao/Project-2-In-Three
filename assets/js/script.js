@@ -59,9 +59,17 @@ function checkWinner() {
 }
 
 
-function updateScores() {
+function updateScores(result) {
 
-}
+    isPlayerWinner = checkWinner(playerChoice)
+    isComputerWinner = checkWinner(computerChoice)
+
+    if (isPlayerWinner) {
+        incrementPlayer();
+    } else if (isComputerWinner) {
+        incrementComputer();
+    } else {}
+
 
 function incrementPlayer() {
     let oldPlayerScore = parseInt(playerScore.innerText);
