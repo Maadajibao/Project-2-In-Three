@@ -40,9 +40,10 @@ function playGame (playerChoice) {
     computerImage.src = `assets/images/${choices[computerChoice]}.png`;
     computerImage.alt = choices[computerChoice];
 
-    let result = checkWinner(choices[computerChoice], choices[playerChoice]);
+    let result = checkWinner(choices[playerChoice], choices[computerChoice]);
+    
 
-    updateScores(result);
+    
 }
 
 /**
@@ -52,28 +53,28 @@ function playGame (playerChoice) {
 
 
 
-function checkWinner(playerChoice) {
-    let computerChoice = Math.floor(Math.random() * 3);
+function checkWinner(choicePlayer, choiceComputer) {
+    
 
 
-    if (choices[playerChoice] === choices[computerChoice]) {
-        console.log('works');
-    } else if (choices[playerChoice] === 'rock') {
-        if (choices[computerChoice] === 'paper') {
-            console.log('works');
+    if (choicePlayer === choiceComputer) {
+        console.log('works tie');
+    } else if (choicePlayer === 'rock') {
+        if (choiceComputer == 'scissors') {
+            console.log('works player ');
         } else {
-            console.log('works');
+            console.log('works computer');
         }
-    } else if (choices[playerChoice] === 'scissor') {
-        if (choices[computerChoice] === 'rock') {
-            console.log('works');
+    } else if (choicePlayer === 'paper') {
+        if (choiceComputer === 'rock') {
+            console.log('works player');
         } else {
-            console.log('works');
+            console.log('works computer');
         }
-    } else if (choices[playerChoice] === 'paper') {
-        if (choices[computerChoice] === 'scissor') {
-            console.log('works');
-        } else { console.log('works'); }
+    } else if (choicePlayer == 'scissors') {
+        if (choiceComputer == 'paper') {
+            console.log('works player');
+        } else { console.log('works computer'); }
     } else { }
 
 
