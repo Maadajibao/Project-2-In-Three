@@ -51,24 +51,51 @@ function playGame (playerChoice) {
 
 
 
-function checkWinner() {
-    if (choices === choices) {
-        message.innerHTML 
-    }
+
+function checkWinner(playerChoice) {
+    let computerChoice = Math.floor(Math.random() * 3);
+
+
+    if (choices[playerChoice] === choices[computerChoice]) {
+        console.log('works');
+    } else if (choices[playerChoice] === 'rock') {
+        if (choices[computerChoice] === 'paper') {
+            console.log('works');
+        } else {
+            console.log('works');
+        }
+    } else if (choices[playerChoice] === 'scissor') {
+        if (choices[computerChoice] === 'rock') {
+            console.log('works');
+        } else {
+            console.log('works');
+        }
+    } else if (choices[playerChoice] === 'paper') {
+        if (choices[computerChoice] === 'scissor') {
+            console.log('works');
+        } else { console.log('works'); }
+    } else { }
+
 
 }
 
 
-function updateScores(result) {
 
-    isPlayerWinner = checkWinner(playerChoice)
-    isComputerWinner = checkWinner(computerChoice)
+
+
+
+function updateScores(playerChoice, computerChoice) {
+
+    isPlayerWinner = checkWinner(choices[playerChoice])
+    isComputerWinner = checkWinner(choices[computerChoice])
 
     if (isPlayerWinner) {
         incrementPlayer();
     } else if (isComputerWinner) {
         incrementComputer();
     } else {}
+
+}
 
 
 function incrementPlayer() {
