@@ -53,7 +53,7 @@ function playGame (playerChoice) {
 }
 
 /**
- * Checks to see who the winner is
+ * Checks to see who the winner is and updates score
  */
 
 
@@ -68,19 +68,25 @@ function checkWinner(choicePlayer, choiceComputer) {
     } else if (choicePlayer === 'rock') {
         if (choiceComputer == 'scissors') {
             console.log('works player ');
+            incrementPlayerScore();
         } else {
             console.log('works computer');
+            incrementComputerScore();
         }
     } else if (choicePlayer === 'paper') {
         if (choiceComputer === 'rock') {
             console.log('works player');
+            incrementPlayerScore();
         } else {
             console.log('works computer');
+            incrementComputerScore();
         }
     } else if (choicePlayer == 'scissors') {
         if (choiceComputer == 'paper') {
             console.log('works player');
-        } else { console.log('works computer'); }
+            incrementPlayerScore();
+        } else { console.log('works computer');
+        incrementComputerScore(); }
     } else { }
 
 
@@ -88,21 +94,6 @@ function checkWinner(choicePlayer, choiceComputer) {
 
 
 
-
-
-
-function updateScores(Playerwinner, Computerwinner) {
-    
-checkWinner(Playerwinner, Computerwinner)
-
-    if (Playerwinner) {
-        incrementPlayerScore();
-    
-    } else {
-        incrementComputerScore();
-    }
-
-}
 
 /**
  * Get the current playerscore from the DOm and increments it by 1
