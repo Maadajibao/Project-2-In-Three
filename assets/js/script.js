@@ -5,7 +5,7 @@
 
 const buttons = document.getElementsByClassName('control');
 const playerScore = document.getElementById('player-score');
-const computerScore = document.getElementById('computer-score');
+const computerScore = document.getElementById('computer-score'); 
 const playerImage = document.getElementById('player-image');
 const computerImage = document.getElementById('computer-image');
 const messages = document.getElementById('messages');
@@ -41,6 +41,12 @@ function playGame (playerChoice) {
     computerImage.alt = choices[computerChoice];
 
     let result = checkWinner(choices[playerChoice], choices[computerChoice]);
+
+
+
+    
+     updateScores(result);
+
     
 
     
@@ -85,31 +91,34 @@ function checkWinner(choicePlayer, choiceComputer) {
 
 
 
-function updateScores(playerChoice, computerChoice) {
+function updateScores(Playerwinner, Computerwinner) {
+    
+checkWinner(Playerwinner, Computerwinner)
 
-    isPlayerWinner = checkWinner(choices[playerChoice])
-    isComputerWinner = checkWinner(choices[computerChoice])
-
-    if (isPlayerWinner) {
-        incrementPlayer();
-    } else if (isComputerWinner) {
-        incrementComputer();
-    } else {}
+    if (Playerwinner) {
+        incrementPlayerScore();
+    
+    } else {
+        incrementComputerScore();
+    }
 
 }
 
+/**
+ * Get the current playerscore from the DOm and increments it by 1
+ */
 
-function incrementPlayer() {
+function incrementPlayerScore() {
     let oldPlayerScore = parseInt(playerScore.innerText);
-    playerScore.innerHTML = ++oldPlayerScore;
+    playerScore.innerText = ++oldPlayerScore;
 }
 
-function incrementComputer() {
+/**
+ * Get the current computerscore from the DOm and increments it by 1
+ */
+
+function incrementComputerScore() {
     let oldComputerScore = parseInt(computerScore.innerText);
-    computerScore.innerHTML = ++oldComputerScore;
+    computerScore.innerText = ++oldComputerScore;
 
 }
-
-
-
-
