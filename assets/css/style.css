@@ -24,9 +24,9 @@ header{
 main {
    
     
-    /* Make main element take up any surplus space to push footer down*/
-     flex: 1 0 auto;
-     margin-top: 47px;
+/* Make main element take up any surplus space to push footer down*/
+ flex: 1 0 auto;
+ margin-top: 47px;
      
 
 }
@@ -65,9 +65,10 @@ footer {
 
 }
 
-#message {
+#messages {
     height: 20px;
 }
+
 
 .player {
     background-color: blue;
@@ -89,14 +90,3 @@ footer {
     width: 75%;
 }
 
-/* Leaderboard */
-
-leaderboard {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    text-align: center;
-    background-color: aqua;
-    color:blue
-        }
