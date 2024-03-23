@@ -39,24 +39,13 @@ function playGame (playerChoice) {
     computerImage.src = `assets/images/${choices[computerChoice]}.png`;
     computerImage.alt = choices[computerChoice];
 
-    let result = checkWinner(choices[playerChoice], choices[computerChoice]);
+    let result = checkWinner(choices[playerChoice], choices[computerChoice]);  
 
-    
-
-    
-
-
-
-    
-    
-
-    
-
-    
 }
 
 /**
- * Checks to see who the winner is and updates score
+ * Checks to see who the winner is, when calculating the winner 
+ * it updates score and informs via text who the winner is
  */
 
 
@@ -102,11 +91,10 @@ function checkWinner(choicePlayer, choiceComputer) {
         } else { console.log('works computer');
         messages.innerText = 'You lost!';
         incrementComputerScore(); }
+
     } else { }
 
-
 }
-
 
 
 
