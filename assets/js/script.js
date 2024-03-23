@@ -8,7 +8,6 @@ const playerScore = document.getElementById('player-score');
 const computerScore = document.getElementById('computer-score'); 
 const playerImage = document.getElementById('player-image');
 const computerImage = document.getElementById('computer-image');
-const messages = document.getElementById('messages');
 const choices = ['rock','paper', 'scissors'];
 
 /**
@@ -42,10 +41,14 @@ function playGame (playerChoice) {
 
     let result = checkWinner(choices[playerChoice], choices[computerChoice]);
 
+    
+
+    
+
 
 
     
-     updateScores(result);
+    
 
     
 
@@ -60,32 +63,44 @@ function playGame (playerChoice) {
 
 
 function checkWinner(choicePlayer, choiceComputer) {
-    
+    let messages = document.getElementById('messages')
 
 
     if (choicePlayer === choiceComputer) {
         console.log('works tie');
+        messages.innerText = "Its a Tie";
+        
+        
     } else if (choicePlayer === 'rock') {
         if (choiceComputer == 'scissors') {
             console.log('works player ');
+            messages.innerText = 'You win!';
             incrementPlayerScore();
+
+                   
+
         } else {
             console.log('works computer');
+            messages.innerHTML = '<p>You lost!</p>';
             incrementComputerScore();
         }
     } else if (choicePlayer === 'paper') {
         if (choiceComputer === 'rock') {
             console.log('works player');
+            messages.innerText = 'You win!';
             incrementPlayerScore();
         } else {
             console.log('works computer');
+            messages.innerText = 'You lost!';
             incrementComputerScore();
         }
     } else if (choicePlayer == 'scissors') {
         if (choiceComputer == 'paper') {
             console.log('works player');
+            messages.innerText = 'You win!';
             incrementPlayerScore();
         } else { console.log('works computer');
+        messages.innerText = 'You lost!';
         incrementComputerScore(); }
     } else { }
 
@@ -113,3 +128,5 @@ function incrementComputerScore() {
     computerScore.innerText = ++oldComputerScore;
 
 }
+
+
