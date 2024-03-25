@@ -11,3 +11,18 @@ Users will learn the rules of Rock Paper Scissors if they never playid it before
 ###Existing features
 
 *Header
+ *Featured at the top of the page, the header shows the game name: In Three (Rock, Paper, Scissors) in a font that is clearly contrasts with the background.
+ *The header clearly tells the user what game they are playing and the name of the site.
+
+ ![Site header](header.JPG)
+
+*The Game Options
+ *The game options includes a clear and visiable instruction. An option of choice are visial to choose from: Rock, Paper, Scissors. These options are interactive buttons that the user can vlick to make their choice.
+ *This section provides interactive buttons that the suer can click to make their choice and play the game.
+
+ ![Make a choices](assets/images/Gamefetuers.JPG)
+
+*The Game Resluts
+ *
+
+
