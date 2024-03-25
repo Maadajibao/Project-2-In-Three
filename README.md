@@ -34,7 +34,7 @@ Users will learn the rules of Rock Paper Scissors if they never playid it before
   * The footer section shows the rules of Rock Paper Scissors.
   * The footer clearly explains how the game is played which is valuable to the user.
 
-  ![Footer](footer.JPG)
+  ![Footer](assets/images/footer.JPG)
 
 ### Features Left to Implement
 
