@@ -56,40 +56,30 @@ function checkWinner(choicePlayer, choiceComputer) {
 
 
     if (choicePlayer === choiceComputer) {
-        console.log('works tie');
         messages.innerText = "Its a Tie";
         
         
     } else if (choicePlayer === 'rock') {
         if (choiceComputer == 'scissors') {
-            console.log('works player ');
             messages.innerText = 'You win!';
             incrementPlayerScore();
-
-                   
-
         } else {
-            console.log('works computer');
             messages.innerHTML = '<p>You lost!</p>';
             incrementComputerScore();
         }
     } else if (choicePlayer === 'paper') {
         if (choiceComputer === 'rock') {
-            console.log('works player');
             messages.innerText = 'You win!';
             incrementPlayerScore();
         } else {
-            console.log('works computer');
             messages.innerText = 'You lost!';
             incrementComputerScore();
         }
     } else if (choicePlayer == 'scissors') {
         if (choiceComputer == 'paper') {
-            console.log('works player');
             messages.innerText = 'You win!';
             incrementPlayerScore();
-        } else { console.log('works computer');
-        messages.innerText = 'You lost!';
+        } else { messages.innerText = 'You lost!';
         incrementComputerScore(); }
 
     } else { }
