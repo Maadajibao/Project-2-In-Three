@@ -56,9 +56,7 @@ function checkWinner(choicePlayer, choiceComputer) {
 
 
     if (choicePlayer === choiceComputer) {
-        messages.innerText = "Its a Tie";
-        
-        
+        messages.innerText = "Its a Tie";   
     } else if (choicePlayer === 'rock') {
         if (choiceComputer == 'scissors') {
             messages.innerText = 'You win!';

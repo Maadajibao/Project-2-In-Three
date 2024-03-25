@@ -78,7 +78,7 @@ pic
   * Look for Branch, select the Master branch and set folder to root.
   * Once that done, go to the main page of the project. Wait a few min the to the right under deployment you will find a link to you site.
 
-  The live link to this page -
+  The live link to this page - [In Three](https://maadajibao.github.io/Project-2-In-Three/)
 
 ## Credits
 
