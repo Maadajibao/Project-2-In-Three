@@ -63,6 +63,7 @@ footer {
     background-color: lightblue;
     float: left;
     width: 45%;
+    
 }
 
 #player-image {
@@ -73,6 +74,7 @@ footer {
     background-color: lightcoral;
     float: right;
     width: 45%;
+    
 }
 
 #computer-image {
