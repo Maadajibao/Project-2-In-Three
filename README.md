@@ -47,9 +47,46 @@ Users will learn the rules of Rock Paper Scissors if they never playid it before
 * I confirmed that the header, instrutions, options, result and footer text are all readable and easy to understand.
 * I confirmed that the colors and font chosen are easy to read and accessible by running it through ligthouse in devtools
 
+pic
+
 * I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 
+## Bugs
 
+* Solved bugs
+
+
+## Validator Testin
+
+* HTML
+ * No errors were returned when passing through the official W3C validator.
+* Css
+ * No errors were returned when passing through the official (Jigsaw) validator.
+* JavaScript
+ * No errors were returned when passing through the JSHint Javascript validator.
+
+ ## Unfixed Bugs 
+
+ * When using 320px screens computer box get a heigher width then wanted.
+ pic
+
+ ## Deployment 
+
+ * The site was deployed to Github pages. The steps to deploy are as follows:
+  * In the Github repository, navigate to the Settings tab
+  * To the left find Code and automation, press pages
+  * Look for Branch, select the Master branch and set folder to root.
+  * Once that done, go to the main page of the project. Wait a few min the to the right under deployment you will find a link to you site.
+
+  The live link to this page -
+
+## Credits
+
+### Content
+
+### Media
+
+* The images for the cartoon hands were taken from [ClipArtMax](https://www.clipartmax.com/middle/m2i8i8G6H7K9Z5H7_rock-paper-scissors-clipart-rock-paper-scissors-clip-art/)
 
  
 
