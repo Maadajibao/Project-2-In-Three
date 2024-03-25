@@ -60,7 +60,7 @@ footer {
 
 
 .player {
-    background-color: blue;
+    background-color: lightblue;
     float: left;
     width: 45%;
 }
@@ -70,7 +70,7 @@ footer {
 }
 
 .computer {
-    background-color: red;
+    background-color: lightcoral;
     float: right;
     width: 45%;
 }

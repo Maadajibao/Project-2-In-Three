@@ -6,23 +6,47 @@ Users will learn the rules of Rock Paper Scissors if they never playid it before
 
 ![Website in diffrent browsers](assets/images/helhetsbild.JPG)
 
-##Features
+## Features
 
-###Existing features
+### Existing features
 
-*Header
- *Featured at the top of the page, the header shows the game name: In Three (Rock, Paper, Scissors) in a font that is clearly contrasts with the background.
- *The header clearly tells the user what game they are playing and the name of the site.
+* Header
+ * Featured at the top of the page, the header shows the game name: In Three (Rock, Paper, Scissors) in a font that is clearly contrasts with the background.
+ * The header clearly tells the user what game they are playing and the name of the site.
 
  ![Site header](header.JPG)
 
-*The Game Options
- *The game options includes a clear and visiable instruction. An option of choice are visial to choose from: Rock, Paper, Scissors. These options are interactive buttons that the user can vlick to make their choice.
- *This section provides interactive buttons that the suer can click to make their choice and play the game.
+* The Game Options
+ * The game options includes a clear and visiable instruction. An option of choice are visial to choose from: Rock, Paper, Scissors. These options are interactive buttons that the user can vlick to make their choice.
+ * This section provides interactive buttons that the suer can click to make their choice and play the game.
 
  ![Make a choices](assets/images/Gamefetuers.JPG)
 
-*The Game Resluts
- *
+* The Game Resluts
+ * When the user clicks and makes a chocie, the image relating to their choice is shown on their side of the game bord (To the left).
+ * The JavaScript code chooses a random option for the Computer player, displays the image relating to the computer choice, and then determines who the winner is.
+ * The winner is announced to the user under the options button via a tex stating You win, You lose or Its a Tie, and the score is updated for either the user or the computer by incrementing the numbers by 1, depending on who won.
+ * The results and score are clear to the user, making the game easy to play, understand who won, and what the score is.
+
+ ![Game results](assets/images/gamerules.JPG)
+
+ * The Footer 
+  * The footer section shows the rules of Rock Paper Scissors.
+  * The footer clearly explains how the game is played which is valuable to the user.
+
+  ![Footer](footer.JPG)
+
+### Features Left to Implement
+
+* When there is time, I would like to put in a score board where you can put in you name and the game will be best of three plays to determine who the winner is.
+
+## Testing 
+
+* I tested playing this game in different browsers; Chrome, Firefox, Safari.
+* I confirmed that the game results are always correct.
+* I confirmed that the header, instrutions, options, result and footer text are all readable and easy to understand.
+* I confirmed that the colors and font chosen are easy to read and accessible by running it through ligthouse in devtools
+
+ 
 
 
