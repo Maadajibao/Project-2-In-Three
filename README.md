@@ -1,8 +1,8 @@
 # In Three (Rock, Paper, Scissors)
 
-In Three is a fun Rock Paper Scissors game where you play agaist a computer. You as a player get to make a choice between three options, when you have made your choice the computer player makes a random choice where the outcome is fair. It has been shown that people familiar with each other are statistically more likely to drawn when playing Rock Paper Scissors. With our game the outcome is more randomized and fair.
+In Three is a fun Rock Paper Scissors game where you play agaist a computer. You as a player get to make a choice between three options, when you have made your choice the computer player makes a random choice where the outcome is fair. It has been shown that people familiar with each other are statistically more likely to draw when playing Rock Paper Scissors. With our game the outcome is more randomized and fair.
 
-Users will learn the rules of Rock Paper Scissors if they never playid it before and gain knowledge that they can apply in real life. This site will be targeted towords adults and children. Age will be no facture so anyone can simply learn, practice and have fun with.
+Users will learn the rules of Rock Paper Scissors if they never playid it before and gain knowledge that they can apply in real life. This site will be targeted towards adults and children. Age will be no facture so anyone can learn, practice and have fun with.
 
 ![Website in diffrent browsers](assets/images/helhetsbild.JPG)
 
@@ -17,13 +17,13 @@ Users will learn the rules of Rock Paper Scissors if they never playid it before
  ![Site header](assets/images/header.JPG)
 
 * The Game Options
-  * The game options includes a clear and visiable instruction. An option of choice are visial to choose from: Rock, Paper, Scissors. These options are interactive buttons that the user can vlick to make their choice.
-  * This section provides interactive buttons that the suer can click to make their choice and play the game.
+  * The game options includes a clear and visiable instruction. An option of choice are visual to choose from: Rock, Paper, Scissors. These options are interactive buttons that the user can click to make their choice.
+  * This section provides interactive buttons that the user can click to make their choice and play the game.
 
  ![Make a choices](assets/images/Gamefetuers.JPG)
 
 * The Game Resluts
-  * When the user clicks and makes a chocie, the image relating to their choice is shown on their side of the game bord (To the left).
+  * When the user clicks and makes a choice, the image relating to their choice is shown on their side of the game bord (To the left).
   * The JavaScript code chooses a random option for the Computer player, displays the image relating to the computer choice, and then determines who the winner is.
   * The winner is announced to the user under the options button via a tex stating You win, You lose or Its a Tie, and the score is updated for either the user or the computer by incrementing the numbers by 1, depending on who won.
   * The results and score are clear to the user, making the game easy to play, understand who won, and what the score is.
@@ -38,7 +38,7 @@ Users will learn the rules of Rock Paper Scissors if they never playid it before
 
 ### Features Left to Implement
 
-* When there is time, I would like to put in a score board where you can put in you name and the game will be best of three plays to determine who the winner is.
+* When there is time, I would like to put in a score board where you can put in your name. I would like to make the game be best of three plays to determine who the winner is.
 
 ## Testing 
 
@@ -59,11 +59,11 @@ Users will learn the rules of Rock Paper Scissors if they never playid it before
 ## Validator Testin
 
 * HTML
- * No errors were returned when passing through the official W3C validator.
+  * No errors were returned when passing through the official W3C validator.
 * Css
- * No errors were returned when passing through the official (Jigsaw) validator.
+  * No errors were returned when passing through the official (Jigsaw) validator.
 * JavaScript
- * No errors were returned when passing through the JSHint Javascript validator.
+  * No errors were returned when passing through the JSHint Javascript validator.
 
  ## Unfixed Bugs 
 
@@ -82,6 +82,7 @@ Users will learn the rules of Rock Paper Scissors if they never playid it before
 ## Credits
 
 ### Content
+ * Wrote the code with the knowledge provided with the cours at Code institute
 
 ### Media
 
