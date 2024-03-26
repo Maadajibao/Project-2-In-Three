@@ -47,7 +47,7 @@ Users will learn the rules of Rock Paper Scissors if they never playid it before
 * I confirmed that the header, instrutions, options, result and footer text are all readable and easy to understand.
 * I confirmed that the colors and font chosen are easy to read and accessible by running it through ligthouse in devtools
 
-pic
+![Lighthouse score](<assets/images/lighthouse score.JPG>)
 
 * I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 
