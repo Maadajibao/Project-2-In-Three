@@ -11,28 +11,28 @@ Users will learn the rules of Rock Paper Scissors if they never playid it before
 ### Existing features
 
 * Header
- * Featured at the top of the page, the header shows the game name: In Three (Rock, Paper, Scissors) in a font that is clearly contrasts with the background.
- * The header clearly tells the user what game they are playing and the name of the site.
+  * Featured at the top of the page, the header shows the game name: In Three (Rock, Paper, Scissors) in a font that is clearly contrasts with the background.
+  * The header clearly tells the user what game they are playing and the name of the site.
 
  ![Site header](header.JPG)
 
 * The Game Options
- * The game options includes a clear and visiable instruction. An option of choice are visial to choose from: Rock, Paper, Scissors. These options are interactive buttons that the user can vlick to make their choice.
- * This section provides interactive buttons that the suer can click to make their choice and play the game.
+  * The game options includes a clear and visiable instruction. An option of choice are visial to choose from: Rock, Paper, Scissors. These options are interactive buttons that the user can vlick to make their choice.
+  * This section provides interactive buttons that the suer can click to make their choice and play the game.
 
  ![Make a choices](assets/images/Gamefetuers.JPG)
 
 * The Game Resluts
- * When the user clicks and makes a chocie, the image relating to their choice is shown on their side of the game bord (To the left).
- * The JavaScript code chooses a random option for the Computer player, displays the image relating to the computer choice, and then determines who the winner is.
- * The winner is announced to the user under the options button via a tex stating You win, You lose or Its a Tie, and the score is updated for either the user or the computer by incrementing the numbers by 1, depending on who won.
- * The results and score are clear to the user, making the game easy to play, understand who won, and what the score is.
+  * When the user clicks and makes a chocie, the image relating to their choice is shown on their side of the game bord (To the left).
+  * The JavaScript code chooses a random option for the Computer player, displays the image relating to the computer choice, and then determines who the winner is.
+  * The winner is announced to the user under the options button via a tex stating You win, You lose or Its a Tie, and the score is updated for either the user or the computer by incrementing the numbers by 1, depending on who won.
+  * The results and score are clear to the user, making the game easy to play, understand who won, and what the score is.
 
  ![Game results](assets/images/gamerules.JPG)
 
  * The Footer 
-  * The footer section shows the rules of Rock Paper Scissors.
-  * The footer clearly explains how the game is played which is valuable to the user.
+   * The footer section shows the rules of Rock Paper Scissors.
+   * The footer clearly explains how the game is played which is valuable to the user.
 
   ![Footer](assets/images/footer.JPG)
 
@@ -53,7 +53,7 @@ pic
 
 ## Bugs
 
-* Solved bugs
+* No bugs to solve
 
 
 ## Validator Testin
@@ -67,16 +67,15 @@ pic
 
  ## Unfixed Bugs 
 
- * When using 320px screens computer box get a heigher width then wanted.
- pic
+ * No unfixed bugs
 
  ## Deployment 
 
  * The site was deployed to Github pages. The steps to deploy are as follows:
-  * In the Github repository, navigate to the Settings tab
-  * To the left find Code and automation, press pages
-  * Look for Branch, select the Master branch and set folder to root.
-  * Once that done, go to the main page of the project. Wait a few min the to the right under deployment you will find a link to you site.
+   * In the Github repository, navigate to the Settings tab
+   * To the left find Code and automation, press pages
+   * Look for Branch, select the Master branch and set folder to root.
+   * Once that done, go to the main page of the project. Wait a few min the to the right under deployment you will find a link to you site.
 
   The live link to this page - [In Three](https://maadajibao.github.io/Project-2-In-Three/)
 
